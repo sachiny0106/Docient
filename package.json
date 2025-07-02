@@ -1,0 +1,16 @@
+{
+  "name": "docient-hospital-management",
+  "version": "1.0.0",
+  "description": "A comprehensive hospital management system",
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5"
+  }
+}
